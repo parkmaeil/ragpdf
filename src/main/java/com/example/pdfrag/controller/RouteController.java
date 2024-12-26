@@ -10,10 +10,4 @@ public class RouteController {
     public String korea(){
         return "rag";
     }
-
-    @GetMapping("/canvas")
-    public String canvas(){
-        return "canvas";
-    }
-
 }
