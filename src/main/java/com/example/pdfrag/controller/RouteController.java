@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class RouteController {
 
-    @GetMapping("/pdfReg")
+    @GetMapping("/pdfRag")
     public String korea(){
-        return "rag";
+        return "rag"; // rag.html
     }
 }
